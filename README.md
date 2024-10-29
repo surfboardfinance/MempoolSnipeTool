@@ -14,3 +14,18 @@
 - **Infura or Alchemy API Key** for WebSocket connection to Ethereum mainnet
 - **Ethers.js and Web3.js libraries** for blockchain interaction
 - **Private Ethereum Wallet Key** funded with ETH for gas fees
+
+### The bot will:
+
+- **Monitor** Mempool for Uniswap V3 liquidity events.
+- **Trigger** Buy Transaction upon detecting liquidity addition.
+- **Execute** in Same Block with priority gas settings to ensure inclusion.
+
+### Disclaimer
+MempoolSnipeTool is a high-risk tool intended for advanced users familiar with DeFi and Ethereum. The project assumes no responsibility for financial loss, security vulnerabilities, or any other risks associated with use.
+
+### Contributing
+Contributions are welcome! Please open an issue or submit a pull request to discuss proposed changes.
+
+### License
+This project is licensed under the MIT License.
